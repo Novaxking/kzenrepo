@@ -19,31 +19,31 @@ APP_ID = int(os.environ.get("APP_ID", "5166878"))
 API_HASH = os.environ.get("API_HASH", "fdafb41f9a67f40e34a6c67f47730a92")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001973418807"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "iBOXTVADS")
+OWNER = os.environ.get("OWNER", "K-ZEN TV")
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6124171612"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7371865855"))
 
 #Port
 PORT = os.environ.get("PORT", "8030")
 
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "bot13")
+DB_NAME = os.environ.get("DATABASE_NAME", "")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002311266823"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002311266823"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", ""))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hello Pirate!! {first}\n\n ɪ Store files for iBOX TV and users can access them through clicking special buttons. </b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hello Pirate!! {first}\n\n ɪ Store files for K-Zen TV and users can access them through clicking special buttons. </b>")
 try:
-    ADMINS=[6124171612]
+    ADMINS=[7371865855]
     for x in (os.environ.get("ADMINS", "762308466").split()):
         ADMINS.append(int(x))
 except ValueError:
