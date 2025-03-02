@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>K_Zen TV</a>\n○ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/K_ZenTv'>K_Zen TV</a>\n○ ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/K_ZenMovies'>K_ZEN TV FAMILY</a>\n○ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/+npjbj_z59uYyZTM0'>Search Movies</a>\n○ Movie Requests ᴄʜᴀᴛ : <a href='https://t.me/+bc4ZizsFnoZjYzU0'>K_Zen TV</a></b>",
+            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>K-Zen TV</a>\n○ MAIN DIRECTORY : <a href='https://t.me/K_ZenTv'>K_Zen TV</a>\n○ MOVIES CHANNEL : <a href='https://t.me/K_ZenMovies'>K-ZEN MOVIES</a>\n○ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/+npjbj_z59uYyZTM0'>K-Zen Community Chat</a>\n○ Movie Requests ᴄʜᴀᴛ : <a href='https://t.me/+bc4ZizsFnoZjYzU0'>K-Zen Movies Requests</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
