@@ -10,13 +10,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>iBOX TV</a>\n○ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/iBOX_TV'>iBOX TV</a>\n○ ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/iBOXTVMOVIES'>iBOX TV FAMILY</a>\n○ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/+Cze71ohH6B82ZTZk'>Search Movies</a>\n○ Movie Search ᴄʜᴀᴛ : <a href='https://t.me/+ESw_v3HM6nRlNTQ0'>iBOX TV</a></b>",
+            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>K_Zen TV</a>\n○ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/K_ZenTv'>K_Zen TV</a>\n○ ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/K_ZenMovies'>K_ZEN TV FAMILY</a>\n○ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/+npjbj_z59uYyZTM0'>Search Movies</a>\n○ Movie Requests ᴄʜᴀᴛ : <a href='https://t.me/+bc4ZizsFnoZjYzU0'>K_Zen TV</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
                     InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close"),
-                    InlineKeyboardButton('🍁 ᴘʀᴇᴍɪᴜᴍ', url='https://t.me/iBOXTVADS')
+                    InlineKeyboardButton('🍁 ADs & B/s', url= 't.me/roverxstar')
                     ]
                 ]
             )
