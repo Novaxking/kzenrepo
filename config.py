@@ -31,7 +31,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7371865855"))
 PORT = os.environ.get("PORT", "8030")
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "https://t.me/+xwhTwbZQLM5iMTNk")
+DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "KZEN DB")
 
 #force sub channel id, if you want enable force sub
